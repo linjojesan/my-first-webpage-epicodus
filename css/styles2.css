@@ -1,5 +1,32 @@
 h1 {
-color: red;
+color: black;
+font-size: 40px
+font-weight: 400;
 
 
 }
+
+h2 {
+
+font-size: 20px
+color: #00FFFF;
+
+}
+
+body {
+
+
+
+
+text-align: center;
+
+font-style: oblique;
+
+font-weight: 100;
+
+font-family: monospace;
+
+font-size: 14px;
+
+ line-height: normal;
+ }
