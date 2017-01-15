@@ -8,18 +8,13 @@ h1  {
 }
 
 h2 {
-
 font-family: fantasy;
 color: #00FFFF;
 padding-top: 15px;
 text-shadow: 2px 2px 8px #FF0000;
-
-
 }
 
-body{
-
-
+body {
 
 }
 
@@ -30,3 +25,78 @@ box-shadow: 10px 10px 5px #888888;
 border-radius: 50%;
 
 }
+
+#tv1, #tv2, #tv3, #tv4
+{
+
+position: fixed;
+width: 50%;
+height: 50%;
+z-index: -1;
+background: black url(https://imageobjecttext.files.wordpress.com/2012/04/david-hall-1001-tv-sets-2012-single-screen-snow.jpg);
+background-size: 50% 100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#tv1 {
+
+  top: 0;
+  left: 0;
+  }
+
+#tv2 {
+
+top: 0;
+right: 0;
+}
+#tv3 {
+  bottom: 0;
+  left: 0;
+}
+#tv4  {
+  bottom: 0;
+  right: 0;
+}
+
+#content {
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+}
+
+#tv1:hover{
+background:black url(https://s24.postimg.org/wxqhv69th/tvsnowpink.jpg);
+background-size: 50% 100%;
+background-size: 50% 100%;
+background-repeat: no-repeat;
+background-position: center;
+  }
+
+ #tv2:hover {
+ background:black url(https://s29.postimg.org/snhipxs2v/tvsnowgreen.jpg);
+ background-size: 50% 100%;
+ background-size: 50% 100%;
+ background-repeat: no-repeat;
+ background-position: center;
+   }
+
+ #tv3:hover {
+ background:black url(https://s30.postimg.org/9dk8s810x/tvsnowblue.jpg);
+ background-size: 50% 100%;
+ background-size: 50% 100%;
+ background-repeat: no-repeat;
+ background-position: center;
+   }
+
+ #tv4:hover
+
+{
+background:black url(https://s29.postimg.org/uuw8g94hj/tvsnow.jpg);
+background-size: 50% 100%;
+background-size: 50% 100%;
+background-repeat: no-repeat;
+background-position: center;
+  }
